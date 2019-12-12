@@ -1,0 +1,167 @@
+body {
+  color:#fffffff5;
+  background-color: #00224455;
+}
+
+/* Wrapper for the main part, topped by the header and bottomed by the footer */
+#main {
+  padding-top: 52px;
+  padding-bottom: 15px;
+}
+
+/** Rules for the major parts of the page **/
+
+#header {
+  background-color: #002244dd;
+  text-align: center;
+  font-size: 200%;
+  position: fixed;
+  z-index: 100;
+  height: 52px;
+}
+
+#footer {
+  background-color: #002244ee;
+  text-align: center;
+  font-style: italic;
+}
+
+#form {
+  text-align: center;
+}
+
+#wrapper {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #002244aa;
+  border-style: none none none solid;
+  border-width: 12px;
+  border-color: #002244ee;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#result {
+  text-align: center;
+}
+
+#navbar {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
+/** Miscellaneous rules **/
+
+button {
+  margin-top: 12px;
+}
+
+form, div.tab-pane {
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #002244aa;
+  border-style: none none none solid;
+  border-width: 12px;
+  border-color: #002244ee;
+  border-radius: 0px 10px 10px 0px;
+}
+
+pre {
+  display: block;
+}
+
+div[id^='box_result_file'] {
+  color: #000033e5;
+  background-color: #ffffffce;
+  border-radius: 5px;
+  text-align: left;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  height: 500px;
+  overflow: auto;
+}
+
+span#highlight {
+  background-color: #ef2132fe;
+  display: block;
+}
+
+textarea#box_input {
+  color: #000000c5;
+}
+
+#box_file, #box_archive {
+  font-size: 85%;
+}
+
+div.container-fluid label {
+  font-size: 125%;
+}
+
+div.container-fluid label.section {
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #00224488;
+}
+
+a.valid, a.unvalid {
+  color: #000022fe;
+}
+
+li.valid {
+  background-color: #21ef54fe;
+  border-width: 1px;
+  border-radius: 5px 5px 0 0;
+  border-style: solid;
+  border-color: #000022ce;
+}
+
+li.unvalid {
+  background-color: #ef2154fe;
+  border-width: 1px;
+  border-radius: 5px 5px 0 0;
+  border-style: solid;
+  border-color: #000022ce;
+}
+
+.nav-tabs > li.valid > a:focus {
+  background-color: #21ae54ae !important;
+  color: #000022fe !important;
+}
+
+.nav-tabs > li.valid > a.active {
+  background-color: #21ae54ae !important;
+  color: #000022fe !important;
+}
+
+.nav-tabs > li.unvalid > a:focus {
+  background-color: #bf2154ae !important;
+  color: #000022fe !important;
+}
+
+.nav-tabs > li.unvalid > a.active {
+  background-color: #bf2154ae !important;
+  color: #000022fe !important;
+}
+
+/** Rules for the errors divisions **/
+
+li[id^='err'] {
+  margin-bottom: 5px;
+  border-radius: 15px;
+  background-color: #002244ee;
+  color: #effeefab;
+}
+
+li[id^='err']:hover {
+  background-color: #ef2132fe;
+  color: black;
+}
+
+li[id^='c-err'] {
+  margin-bottom: 8px;
+  border-radius: 3px;
+  background-color: #bbccefee;
+  color: #000022e5;
+  font-style: italic;
+}

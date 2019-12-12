@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="container-fluid" id="main">
+  {% include 'includes/form.html' %}
+  <div class="container-fluid" id="wrapper">
+    <label class="section">
+          Result box
+    </label>
+    {% include 'includes/navbar.html' %}
+    {% include 'includes/result.html'%}
+  </div>
+</div>
+
+{% endblock %}
